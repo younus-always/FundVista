@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+}
+
+[data-theme="dark"] {
+  --color-bg: #000000;
+  --color-fg: #ffffffbf;
+}
+
+a.active {
+  background-color: transparent;
+  border: 1px solid #f59118;
+  color: #f59118;
+}
+
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.my-btn::before {
+  content: "";
+  position: absolute;
+  background: #f59118;
+  width: 33%;
+  height: 170%;
+  top: -12px;
+  right: -15px;
+  transform: rotate(26deg);
+  z-index: -10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.my-btn:hover::before {
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  transform: rotateZ(0deg);
+}
+
+@media (max-width: 519px) {
+  .desc {
+    display: none;
+  }
+}
