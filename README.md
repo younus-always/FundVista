@@ -16,7 +16,7 @@ Whether you're supporting **local initiatives, global causes, or personal effort
 ---
 
 ## 🌐 Live Demo  
-🚀 **Frontend:** [FundVista Live](https://winter-shield.netlify.app)  
+🚀 **Frontend:** [FundVista UI](https://winter-shield.netlify.app)  
 🚀 **Backend:** [FundVista Server](https://fund-vista-server.vercel.app)
 ---
 
@@ -78,7 +78,7 @@ DB_PASS=your_database_password
 ```sh
 npm start
 ```
-By default, the backend runs on `http://localhost:5000/`  
+By default, the backend runs on `http://localhost:4000/`  
 
 ---
 
