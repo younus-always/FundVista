@@ -16,8 +16,10 @@ Whether you're supporting **local initiatives, global causes, or personal effort
 ---
 
 ## 🌐 Live Demo  
-🚀 **Frontend:** [FundVista UI](https://fundvista.netlify.app)
+
+🚀 **Frontend:** [FundVista UI](https://fundvista.netlify.app)    
 🚀 **Backend:** [FundVista Server](https://fund-vista-server.vercel.app)
+
 ---
 
 ## 📌 Installation  
