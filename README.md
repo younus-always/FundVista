@@ -26,7 +26,7 @@ Whether you're supporting **local initiatives, global causes, or personal effort
 
 Follow these steps to set up the project on your local machine:  
 
-### 🔹 Frontend Setup  
+## 🔹 Frontend Setup  
 
 1️⃣ **Clone the repository**  
 ```sh
@@ -56,7 +56,7 @@ npm run dev
 ```
 Then, open your browser and navigate to `http://localhost:5173/`  
 
-### 🔹 Backend Setup  
+## 🔹 Backend Setup  
 
 1️⃣ **Clone the repository**  
 ```sh
